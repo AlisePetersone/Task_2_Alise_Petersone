@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display:flex;
+	flex-direction:row;
+	position:relative;
+	z-index:1;
+	padding:0 62px;
+	background-color:#fff;
+}
+
+.navbar {
+    display: flex;
+	flex: 1;
+	flex-direction: row;
+	padding-top: 51px;
+	justify-content: flex-end;
+	font-family: Montserrat;
+	font-size: 18px;
+	color:#060606;
+}
+
+.navbar a {
+    padding-left: 35px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#lang {
+    padding-left: 51px;
+}
+
+.navbar a:hover, 
+#lang:hover {
+    color: #FFA800;
+}
+
+.video-top {
+    position:absolute;
+	width:100%;
+	z-index:3;
+}
+
+.video {
+    position: relative;
+	margin-top: -40px;
+}
+
+.video-placeholder{
+	width: 100%;
+	z-index: -1;
+}
+
+.play-btn {
+    position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+	width: 6.3%;
+    background-color: #fff;
+    border-radius: 50%;
+}
