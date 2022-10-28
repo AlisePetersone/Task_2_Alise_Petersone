@@ -18,13 +18,13 @@
 	flex-direction: row;
 	padding-top: 51px;
 	justify-content: flex-end;
-	font-family: Montserrat;
-	font-size: 18px;
-	color:#060606;
 }
 
 .navbar a {
     padding-left: 35px;
+    font-family: Montserrat;
+	font-size: 18px;
+	color:#060606;
 }
 
 a:link {
@@ -41,14 +41,14 @@ a:link {
 }
 
 .video-top {
-    position:absolute;
-	width:100%;
-	z-index:3;
+    position: absolute;
+	width: 100%;
+	z-index: 3;    
 }
 
 .video {
     position: relative;
-	margin-top: -40px;
+	margin-top: -60px;
 }
 
 .video-placeholder{
@@ -65,4 +65,246 @@ a:link {
 	width: 6.3%;
     background-color: #fff;
     border-radius: 50%;
+}
+
+.text-container {
+    width:100%;
+	text-align: center;
+	align-items:center;
+}
+
+.text-container p {
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	margin:auto;
+	padding: 150px 0;
+	width: 47.2%;
+	color: #2F4858;
+}
+
+.photo-top {
+    position:absolute;
+	width:100%;
+	z-index:3;
+}
+
+.photo-container {
+    display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.photos {
+    display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.photos-inner {
+	display: flex;
+	flex-direction: column;
+	padding-top: 1%;
+    width: 22%;
+}
+
+.photo1 {
+	width: 24%;
+}
+
+.photo2 {
+	width: 24.5%;
+}
+
+.photo5 {
+	width: 29.5%;
+}
+
+.photo-bottom{
+	position:absolute;
+	width:100%;
+	z-index:3;
+	margin-top:-3%;
+}
+
+.box-container {
+    padding: 150px 0;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.box-container-inner {
+    font-family: Oswald;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	margin:auto;
+	color: #2F4858;
+}
+
+.box-container-inner p {
+text-transform: uppercase;
+}
+
+.box-container-inner .button {
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 50px;
+	text-align: center;
+	margin:auto;
+	margin-top: 50px;
+	width: 233px;
+	height: 50px;
+	background-color: #FFA800;
+	border-radius:25px;
+	color: #fff;
+}
+
+.box-container-inner .button:hover {
+    cursor:pointer;
+	background-color: #FFDA16;
+}
+
+.input-container {
+    align-items: center;
+    text-align: center;
+}
+
+.input-container h3 {
+    margin-bottom: 55px;
+    font-family: Oswald;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 44px;
+	color: #2F4858;
+    text-transform: uppercase;
+}
+
+.input-container-inner {
+    display:flex;
+	flex-direction:column;
+	margin:auto;
+	width:612px;
+}
+
+.contacts {
+    display:flex;
+	flex-direction:row;
+}
+
+.contacts #name{
+    margin-right: 20px;
+}
+
+
+input {
+    display:flex;
+	flex:1;
+	margin-bottom: 15px;
+	background-color: #c4c4c466;
+	border: none;
+	border-radius: 6px;
+	height: 20px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	color: #2F4858;
+	padding: 13px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+textarea {
+    resize: none;
+	background-color: #c4c4c466;
+	border: none;
+	border-radius: 6px;
+	height: 206px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	color: #2F4858;
+	padding: 13px;
+	margin-bottom: 15px;
+}
+
+#comment {
+    text-align:left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #2F4858;
+	margin-bottom: 25px;
+}
+
+.checkbox {
+    display:flex;
+	flex:1;
+	flex-direction: row;
+	margin-bottom: 50px;    
+}
+
+#checkbox{
+	width: 16px;
+	height:16px;
+	border-radius: 3px;
+	background-color: #c4c4c466;
+}
+
+#accept {
+    padding: 0;
+	margin: 0;
+	width:100%;
+	height:100%;
+	opacity:0;
+	cursor: pointer;
+}
+
+#text {
+    display:flex;
+	flex:1;
+	margin: 0 0 0 21px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #2F4858;
+	text-align: left;	
+}
+
+.button-send {
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 62px;
+	text-align: center;
+	margin:auto;
+	margin-bottom: 150px;
+	width: 182px;
+	height: 62px;
+	background-color: #FFA800;
+	border-radius:31px;
+	color: #fff;
+	transition: all .2s ease-in-out;
+}
+
+.button-send:hover{
+	cursor:pointer;
+	background-color: #FFDA16;
 }
