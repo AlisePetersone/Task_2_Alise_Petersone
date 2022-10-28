@@ -40,13 +40,84 @@
 
 <!-- video -->
 
-    <img class="video-top" src="assets/img/header-line.png"/>
-	    <div class="video" onclick="playPause()">
-		    <img class="play-btn" id="play-btn" src="assets/img/play.svg" />
-		    <video class="video-placeholder" id="video">
-			    <source src="assets/img/Video.mp4" type="video/mp4">
-		    </video>
+<img class="video-top" src="assets/img/header-line.png"/>
+    <div class="video" onclick="playPause()">
+        <img class="play-btn" id="play-btn" src="assets/img/play.svg" />
+        <video class="video-placeholder" id="video">
+            <source src="assets/img/Video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+<!-- text container -->
+
+<div class="text-container">
+    <p>SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu mums visiem.Mēs esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.</p>
+</div>
+
+<!-- photo container -->
+
+<img class="photo-top" src="assets/img/ripped 6 7.png"/>
+
+<div class="photo-container">
+    
+    <div class="photos">
+        <img class="photo1" src="assets/img/Zanda_1.png"/>
+        <img class="photo2" src="assets/img/Sibilla_4.png"/>
+    <div class="photos-inner">
+        <img class="photo3" src="assets/img/Brinuma_meita-15.png"/>
+        <img class="photo4" src="assets/img/Alina_1 1.png"/>
+    </div>
+        <img class="photo5" src="assets/img/Anda_2 1.png"/>
+    </div>
+</div>
+
+<img class="photo-bottom" src="assets/img/ripped 6 8.png"/>
+
+
+<!-- box container -->
+
+<div class="box-container">
+    <div class="box-container-inner">
+        <p>vēlies piepildīt savu sapni?</p>
+        <div class="button">
+            <a class="btn">Sapņotajiem</a>
         </div>
+    </div>
+    <div class="box-container-inner">
+        <p>vēlies palīdzēt kādam piepildīt sapni?</p>
+        <div class="button">
+            <a class="btn">Uzņēmējiem</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- input container -->
+
+<div class="input-container">
+    <h3>sazināties ar mums</h3>
+    <div class="input-container-inner">
+        <div class="contacts">
+            <input id="name" type="text" placeholder="Vārds, Uzvārds*">
+            <input id="email" type="text" placeholder="E-pasts*">
+        </div>
+        <input id="phone" type="text" placeholder="Telefons*">
+        <textarea id="question" placeholder="Jautājums vai komentārs*"></textarea>
+        <p id="comment">* obligāti aizpildāmie lauki</p>
+        
+    </div>
+    <div class="checkbox">
+        <div id="checkbox" >
+            <input onchange="check()" id="accept" type="checkbox">
+        </div>
+        <p id="text">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</p>
+    </div>
+
+    <div class="button-send">
+        <a class="btn">Sūtīt</a>
+    </div>
+        
+</div>
 
 
 
@@ -57,8 +128,11 @@
 
 
 
-    <!-- js script -->
-    <script src="js/theme.js"></script>
+
+
+
+<!-- js script -->
+<script src="js/theme.js"></script>
 
 </body>
 </html>
