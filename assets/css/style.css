@@ -278,7 +278,7 @@ textarea {
 	display: flex;
 	flex-direction: column;
 	position:relative;
-	z-index: -1;
+	z-index: 1;
 	height: 530px;
 	background-image: url('../img/orange_ripped.png');
 }
@@ -299,18 +299,43 @@ textarea {
 
 .supporters {
 	flex-direction: row;
-	display: inline-block;
+	display: inline;
 	justify-content: space-around;
+	
 }
 
-.supporters-logo{
+.supporters-logo {
 	align-items: center;
+	
+	margin-left: 168px;	
 }
+
+.supporters-logo img {
+	height: 80px;
+	padding: 0 42.5px 20px 0;
+}
+
+.supporters-logo #logo {
+	height: 120px;
+	padding: 0 42.5px;
+}
+
 
 
 .footer {
+	width:100%;
+	align-items:center;
+	margin-top: -35px;
 	background-color: #2F4858;
+	color: #FFF;
 }
+
+.footer-top {
+	position:absolute;
+	width:100%;
+	z-index:-1;
+}
+
 .footer .box-container {
 	display: -ms-grid;
   display: grid;
@@ -347,7 +372,9 @@ textarea {
 .footer .logo {
 	width: 182px;
 	height: 182px;
-	padding-bottom: 70px
+	padding-bottom: 70px;
+	margin-left: 62px;
+	margin-top: 51px;
 }
 
 .footer .box-container #box1 {
@@ -380,12 +407,11 @@ textarea {
 	margin-right: 29px;
 }
 
-.footer .left {
+.footer h5 {
 	display:flex;
 	flex:1;
 	flex-direction: column;	
 	padding: 80px 64px 13px 0;
-	text-align:left;
 	font-size: 14px;
 	font-family: 'Montserrat';
 	font-weight: 500;
@@ -396,18 +422,7 @@ textarea {
 }
 
 .footer .right {
-	display:flex;
-	flex:1;
-	flex-direction: column;	
-	padding: 80px 64px 13px 0;
 	text-align:right;
-	font-size: 14px;
-	font-family: 'Montserrat';
-	font-weight: 500;
-	color: #fff;
-	padding-top: 51px;	
-	font-size: 14px;
-	line-height: 17px;
 }
 
 .box1 {
@@ -435,4 +450,9 @@ textarea {
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 22px;
+}
+
+
+@media screen and(max-width: 991px) {
+
 }
