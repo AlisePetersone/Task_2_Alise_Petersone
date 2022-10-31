@@ -300,12 +300,13 @@ textarea {
 .supporters {
 	flex-direction: row;
 	display: inline;
+	justify-content: space-around;
 	
 }
 
 .supporters-logo {
 	align-items: center;
-	justify-content: space-around;
+	
 	margin-left: 168px;	
 }
 
