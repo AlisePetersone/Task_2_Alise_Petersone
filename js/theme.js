@@ -10,13 +10,3 @@ function playPause() {
 		myVideo.pause();
 	}
 }
-
-function check(){
-	let div = document.getElementById("checkbox");
-	let checkbox = document.getElementById("accept");
-		if (checkbox.checked === false) {
-			div.style.backgroundColor = "#E7E7E7";
-		} else {
-			div.style.backgroundColor = "#FFA800";
-		}
-}
